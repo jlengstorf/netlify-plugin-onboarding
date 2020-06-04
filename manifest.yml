@@ -1,0 +1,18 @@
+name: netlify-plugin-onboarding
+inputs:
+  - name: templateRepository
+    description: The Git repository that contains your onboarding instructions.
+    default: https://github.com/jlengstorf/example-onboarding-flow.git
+    required: true
+  - name: messageHeading
+    description: If env vars are missing, this is the report headline.
+    default: Missing Required Environment Variables
+    required: true
+  - name: messageSummary
+    description: If env vars are missing, this is the report summary.
+    default: 'Missing env vars: {{env_vars}}'
+    required: true
+  - name: messageDetails
+    description: If env vars are missing, this is the report details.
+    default: A temporary homepage has been created with instructions for completing the site setup. Visit {{site_url}} for details.
+    required: true

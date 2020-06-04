@@ -1,5 +1,4 @@
 # Local Netlify folder
 .netlify
 node_modules
-plugin/template
-site/public
+template

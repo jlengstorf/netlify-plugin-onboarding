@@ -1,8 +1,0 @@
-name: netlify-plugin-onboarding
-inputs:
-  - name: templateRepository
-    description: The Git repository that contains your onboarding instructions.
-    required: true
-  - name: requiredEnvVars
-    description: An array of environment variable names that must be set for your site to build properly.
-    required: true
